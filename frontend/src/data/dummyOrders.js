@@ -1,0 +1,147 @@
+export const dummyOrders = [
+  {
+    id: 1,
+    customer: "John Doe",
+    products: [
+      { title: "Product 1", quantity: 2, price: 50 },
+      { title: "Product 2", quantity: 1, price: 30 },
+    ],
+    totalAmount: 130,
+    paymentStatus: "Completed",
+    shippingAddress: {
+      addressLine1: "123 Main St",
+      city: "Anytown",
+      state: "Anystate",
+      postalCode: "12345",
+      country: "USA",
+    },
+    orderStatus: "Delivered",
+    orderDate: new Date("2024-05-01"),
+    deliveryDate: new Date("2024-05-10"),
+  },
+  {
+    id: 2,
+    customer: "Jane Smith",
+    products: [
+      { title: "Product 3", quantity: 1, price: 20 },
+      { title: "Product 4", quantity: 3, price: 40 },
+    ],
+    totalAmount: 160,
+    paymentStatus: "Completed",
+    shippingAddress: {
+      addressLine1: "456 Elm St",
+      city: "Othertown",
+      state: "Otherstate",
+      postalCode: "54321",
+      country: "USA",
+    },
+    orderStatus: "Shipped",
+    orderDate: new Date("2024-05-05"),
+    deliveryDate: new Date("2024-05-15"),
+  },
+  // Add more dummy orders as needed
+  {
+    id: 3,
+    customer: "Alice Johnson",
+    products: [
+      { title: "Product 5", quantity: 1, price: 25 },
+      { title: "Product 6", quantity: 2, price: 35 },
+    ],
+    totalAmount: 95,
+    paymentStatus: "Pending",
+    shippingAddress: {
+      addressLine1: "789 Maple St",
+      city: "Anothercity",
+      state: "Anotherstate",
+      postalCode: "67890",
+      country: "USA",
+    },
+    orderStatus: "Processing",
+    orderDate: new Date("2024-05-10"),
+    deliveryDate: null,
+  },
+  // Add more dummy orders as needed
+  {
+    id: 4,
+    customer: "Bob Brown",
+    products: [
+      { title: "Product 7", quantity: 2, price: 40 },
+      { title: "Product 8", quantity: 1, price: 30 },
+    ],
+    totalAmount: 110,
+    paymentStatus: "Completed",
+    shippingAddress: {
+      addressLine1: "321 Oak St",
+      city: "Yetanothercity",
+      state: "Yetanotherstate",
+      postalCode: "13579",
+      country: "USA",
+    },
+    orderStatus: "Delivered",
+    orderDate: new Date("2024-05-15"),
+    deliveryDate: new Date("2024-05-25"),
+  },
+  // Add more dummy orders as needed
+  {
+    id: 5,
+    customer: "Emily Davis",
+    products: [
+      { title: "Product 9", quantity: 3, price: 20 },
+      { title: "Product 10", quantity: 2, price: 35 },
+    ],
+    totalAmount: 145,
+    paymentStatus: "Completed",
+    shippingAddress: {
+      addressLine1: "101 Pine St",
+      city: "Yetanothercity",
+      state: "Yetanotherstate",
+      postalCode: "56789",
+      country: "USA",
+    },
+    orderStatus: "Shipped",
+    orderDate: new Date("2024-05-20"),
+    deliveryDate: new Date("2024-05-30"),
+  },
+  // Add more dummy orders as needed
+  {
+    id: 6,
+    customer: "Michael Wilson",
+    products: [
+      { title: "Product 11", quantity: 1, price: 25 },
+      { title: "Product 12", quantity: 2, price: 30 },
+    ],
+    totalAmount: 85,
+    paymentStatus: "Completed",
+    shippingAddress: {
+      addressLine1: "222 Elm St",
+      city: "Anothercity",
+      state: "Anotherstate",
+      postalCode: "23456",
+      country: "USA",
+    },
+    orderStatus: "Delivered",
+    orderDate: new Date("2024-05-25"),
+    deliveryDate: new Date("2024-06-05"),
+  },
+  // Add more dummy orders as needed
+  {
+    id: 7,
+    customer: "Sarah Martinez",
+    products: [
+      { title: "Product 13", quantity: 2, price: 40 },
+      { title: "Product 14", quantity: 1, price: 35 },
+    ],
+    totalAmount: 115,
+    paymentStatus: "Pending",
+    shippingAddress: {
+      addressLine1: "456 Oak St",
+      city: "Yetanothercity",
+      state: "Yetanotherstate",
+      postalCode: "98765",
+      country: "USA",
+    },
+    orderStatus: "Processing",
+    orderDate: new Date("2024-06-01"),
+    deliveryDate: null,
+  },
+];
